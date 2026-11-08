@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TheDressUp | Clothing Shop</title>
+<meta name="description" content="TheDressUp: branded and high quality clothes. Shopping &amp; retail. Office hours 10am-5pm. Find us at @dressup_clothing_shop and @dressup_clothing_shop.03.">
+<link rel="icon" type="image/jpeg" href="assets/thedressup-primary.jpg">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/brand-refresh.css">
+<meta name="theme-color" content="#a85667">
+</head>
+<body>
+<a class="skip-link" href="#stage">Skip to runway</a>
+<div class="page">
+  <header>
+    <div class="r1">
+      <a class="brand" href="index.html" aria-label="TheDressUp home"><img src="assets/thedressup-logo.webp" alt="The DressUp Clothing Shop circular dress and hanger logo" width="66" height="66"><span class="wordmark" aria-hidden="true"><span class="the">The</span>Dress<span class="up">Up</span><span class="heart">&#9829;</span><small>CLOTHING SHOP</small></span></a>
+      <nav class="tabs" aria-label="Main navigation"><a class="on" href="#stage" aria-current="page">The lookbook</a><button data-dialog="profile">Our little world</button><button data-dialog="profile">Our shops <sup>02</sup></button></nav>
+      <div class="acct">
+        <button id="saved-button" aria-label="Open saved favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20S3.5 15 3.5 9A4.6 4.6 0 0 1 12 6.6 4.6 4.6 0 0 1 20.5 9C20.5 15 12 20 12 20Z"/></svg><span class="edit-counter" id="saved-count">0</span></button>
+        <button id="bag-button" aria-label="Open your outfit edit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4Z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg><span class="edit-counter" id="cart">0</span></button>
+        <a class="visit-shop" href="https://www.instagram.com/dressup_clothing_shop/" target="_blank" rel="noopener noreferrer">Visit the shop <span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </div>
+  </header>
+  <div class="r2"><span class="ribbon-message"><svg viewBox="0 0 40 30" aria-hidden="true"><path d="M19 13C12 5 2 1 3 11c0 9 9 6 16 3Zm2 0C28 5 38 1 37 11c0 9-9 6-16 3ZM18 16 12 28l-4-3 7-10m7 1 6 12 4-3-7-10"/><circle cx="20" cy="14" r="2"/></svg><span>BRANDED &amp; HIGH QUALITY. A LITTLE LOVE IN EVERY LOOK.</span></span><a href="https://www.instagram.com/dressup_clothing_shop.03/" target="_blank" rel="noopener noreferrer">Meet our second shop <span aria-hidden="true">&#8599;</span></a></div>
+  <main>
+    <section class="stage" id="stage" aria-label="Runway looks. Drag, scroll or use the arrow keys to change look." tabindex="0">
+      <div class="line" id="line"></div>
+      <span class="stage-label">THE DRESSUP STYLE EDIT</span>
+      <span class="petal petal-one" aria-hidden="true">&#9825;</span><span class="petal petal-two" aria-hidden="true">&#10023;</span>
+      <div class="intro">
+        <span class="eyebrow">DRESSED WITH A LITTLE HEART</span>
+        <h1 class="hero-wordmark" aria-label="TheDressUp Clothing Shop"><span class="the" aria-hidden="true">The</span><span aria-hidden="true">Dress<span class="up">Up</span></span><span class="heart" aria-hidden="true">&#9829;</span><small aria-hidden="true">CLOTHING SHOP</small></h1>
+        <div class="flourish" aria-hidden="true"><svg viewBox="0 0 40 30"><path d="M19 13C12 5 2 1 3 11c0 9 9 6 16 3Zm2 0C28 5 38 1 37 11c0 9-9 6-16 3ZM18 16 12 28l-4-3 7-10m7 1 6 12 4-3-7-10"/><circle cx="20" cy="14" r="2"/></svg></div>
+        <p class="tagline">Wear a little happiness.</p>
+        <p class="description">Branded and high quality clothes, for the days<br>you want to feel a little more you.</p>
+        <a class="discover" href="https://www.instagram.com/dressup_clothing_shop/" target="_blank" rel="noopener noreferrer">Find your next favourite <span aria-hidden="true">&#8599;</span></a>
+        <span class="note">Beautiful pieces. Lovely details. Your kind of style.</span>
+      </div>
+      <div class="tag">
+        <p class="eyebrow">A LITTLE OUTFIT INSPIRATION</p>
+        <div class="look" aria-live="polite"><span>Look</span><span class="win"><span class="roll" id="roll"></span></span></div>
+        <a class="shop wide" href="https://www.instagram.com/dressup_clothing_shop/" target="_blank" rel="noopener noreferrer">Shop the look <span aria-hidden="true">&#8599;</span></a>
+      </div>
+      <div class="runway-navigation"><span class="drag-label"><span aria-hidden="true">&#8596;</span> Scroll or drag to fall in love</span><div class="look-controls"><button class="step" id="previous-look" aria-label="Previous look">&#8249;</button><div class="dots" id="look-dots" role="group" aria-label="Choose a look"></div><button class="step" id="next-look" aria-label="Next look">&#8250;</button></div></div>
+      <div class="ring" id="ring" aria-hidden="true">&#8596;</div>
+    </section>
+    <aside class="product-panel" aria-labelledby="rail-title"><div class="rail-heading"><h2 id="rail-title">The lovely details</h2><span>CURATED WITH &#9825;</span></div><div class="rail" id="rail" aria-label="Pieces in this look"></div><p class="rail-note">Style inspiration &middot; Ask us for availability &amp; prices</p></aside>
+  </main>
+  <footer class="community"><a href="https://www.instagram.com/dressup_clothing_shop/" target="_blank" rel="noopener noreferrer"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>@dressup_clothing_shop <span aria-hidden="true">&#8599;</span></a><div class="profile-stats"><span><b>507</b> posts</span><span><b>22.6K</b> followers</span><span><b>32</b> following</span></div><button class="hours" data-dialog="profile"><span aria-hidden="true"></span>Office hours 10am&ndash;5pm</button></footer>
+</div>
+<div class="wait" id="wait" aria-hidden="true"><div class="loading-brand">TheDress<span>Up</span></div><small>A LITTLE LOVE. A LITTLE STYLE.</small></div>
+<dialog class="brand-dialog" id="brand-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span>THE DRESSUP WORLD</span><button class="dialog-close" aria-label="Close dialog">&times;</button></div><div id="dialog-content"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+const MODELS='assets/runway-models.webp';
+const PIECES='assets/runway-pieces.webp';
+// each model's box on the 960 x 540 sheet: x0, x1
+const LOOKS=[[12,176],[178,330],[331,470],[476,633],[634,767],[767,956]],Y0=48,Y1=496,FIRST=1;
+// each piece's box on the 960 x 720 sheet: x0, x1, y0, y1, name, price
+const ITEMS=[
+  [26,224,28,214,'Feather Jacket','$2,900'],[304,412,22,236,'Satin Wide Leg Trousers','$1,450'],
+  [530,666,12,242,'Pleated Dress','$2,200'],[752,922,100,146,'Gold Waist Belt','$420'],
+  [70,176,246,466,'Satin Trench Dress','$2,350'],[294,422,294,432,'Top Handle Bag','$980'],
+  [508,688,240,452,'Billow Sleeve Blouse','$860'],[780,890,252,466,'Tie Waist Trousers','$740'],
+  [64,178,484,698,'Powder Long Coat','$1,980'],[316,396,482,698,'Ivory Straight Trousers','$690'],
+  [530,672,508,682,'Sculpted Ruffle Top','$1,120'],[754,916,484,700,'Pleated Maxi Skirt','$1,340']];
+// depth stops from d = -1 (leaving past the rail) to d = 5 (arriving out of the haze)
+const KX=[1.2,.744,.496,.346,.235,.15,.085],KF=[1.14,.89,.777,.704,.651,.616,.59],KH=[1.18,.832,.574,.436,.334,.258,.19],
+      KB=[0,0,1.5,4,8,12,17],KO=[1,1,1,1,.86,.5,0];
+const N=LOOKS.length,$=id=>document.getElementById(id),calm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const stage=$('stage'),rail=$('rail'),ring=$('ring'),roll=$('roll'),line=$('line');
+const NS='http://www.w3.org/2000/svg',wrap=(x,n)=>((x%n)+n)%n;
+function crop(href,x0,y0,w,h,sheetW,sheetH){
+  const s=document.createElementNS(NS,'svg');s.setAttribute('viewBox',`${x0} ${y0} ${w} ${h}`);s.setAttribute('aria-hidden','true');
+  const f=document.createElementNS(NS,'svg');[['x',x0],['y',y0],['width',w],['height',h],['viewBox',`${x0} ${y0} ${w} ${h}`]].forEach(([k,v])=>f.setAttribute(k,v));
+  const i=document.createElementNS(NS,'image');i.setAttribute('href',href);i.setAttribute('width',sheetW);i.setAttribute('height',sheetH);f.append(i);s.append(f);return s;
+}
+const people=LOOKS.map(([a,b],i)=>{
+  const e=document.createElement('div');e.className='m';e.dataset.i=i;e.append(crop(MODELS,a,Y0,b-a,Y1-Y0,960,540));line.append(e);
+  return{e,r:(b-a)/(Y1-Y0),f:'',o:''};
+});
+const cards=ITEMS.map(([a,b,c,d,name,price],i)=>{
+  const e=document.createElement('article');e.className='card'+(i%2?' alt':'');
+  e.dataset.item=i;
+  e.innerHTML=`<button class="fav" aria-pressed="false" aria-label="Save ${name}"><svg viewBox="0 0 24 24"><path d="M12 20S3.5 15 3.5 9A4.6 4.6 0 0 1 12 6.6 4.600 4.600 0 0 1 20.500 9C20.500 15 12 20 12 20Z"/></svg></button><span class="shot"></span><div class="meta"><h3 class="wide">${name}</h3><span>Ask us on Instagram</span><button class="add" aria-label="Add ${name} to your outfit edit"></button></div>`;
+  e.querySelector('.shot').append(crop(PIECES,a,c,b-a,d-c,960,720));rail.append(e);return e;
+});
+for(let i=0;i<=N;i++){const b=document.createElement('b');b.textContent=String(FIRST+i%N).padStart(2,'0');roll.append(b)}
+let cart=0;
+rail.addEventListener('click',e=>{
+  const f=e.target.closest('.fav');if(f)f.setAttribute('aria-pressed',f.getAttribute('aria-pressed')!=='true');
+  const card=e.target.closest('.card');
+  if(f){updateSavedCount();showToast(f.getAttribute('aria-pressed')==='true'?'Saved with a little love.':'Removed from your favourites.')}
+  if(e.target.closest('.add')&&card){outfit.push(+card.dataset.item);$('cart').textContent=++cart;showToast('Added to your outfit edit.')}
+});
+
+let W=0,H=0,base=0,cardS=0,side=false,dirty=true,p=0,target=0,last=0;
+function size(){
+  W=stage.clientWidth;H=stage.clientHeight;base=H*1.2;side=innerWidth<=820;
+  people.forEach(m=>{m.e.style.width=base*m.r+'px';m.e.style.height=base+'px'});
+  cardS=side?160:rail.clientHeight/3;
+  cards.forEach(c=>c.style.height=side?'100%':cardS+'px');
+  roll.style.setProperty('--h',roll.firstChild.getBoundingClientRect().height);
+  dirty=true;
+}
+addEventListener('resize',size);
+
+function paint(){
+  people.forEach((m,i)=>{
+    let d=wrap(i-p,N);if(d>N-1)d-=N;
+    const k=clamp(d+1,0,6),a=Math.floor(k),b=Math.min(6,a+1),t=k-a,mix=A=>A[a]+(A[b]-A[a])*t;
+    const h=mix(KH)*H,s=h/base,w=h*m.r,x=mix(KX)*W-w/2,y=mix(KF)*H-h;
+    m.e.style.transform=`translate3d(${x.toFixed(1)}px,${y.toFixed(1)}px,0) scale(${s.toFixed(4)})`;
+    const f=mix(KB)/s,fs=f<.2?'none':`blur(${f.toFixed(1)}px)`,o=mix(KO).toFixed(3);
+    if(fs!==m.f){m.f=fs;m.e.style.filter=fs}
+    if(o!==m.o){m.o=o;m.e.style.opacity=o}
+    m.e.style.zIndex=100-Math.round(d*10);
+  });
+  const all=cardS*ITEMS.length;
+  cards.forEach((c,i)=>{
+    let y=wrap(i*cardS-p*2*cardS,all);if(y>all-cardS)y-=all;
+    c.style.transform=side?`translate3d(${y.toFixed(1)}px,0,0)`:`translate3d(0,${y.toFixed(1)}px,0)`;
+  });
+  roll.style.transform=`translate3d(0,${(-wrap(p,N)*roll.firstChild.offsetHeight).toFixed(1)}px,0)`;
+}
+const clamp=(x,a,b)=>Math.min(b,Math.max(a,x));
+
+function frame(now){
+  const dt=Math.min(50,now-last)||16;last=now;
+  const was=p;
+  if(calm)p=target;else p+=(target-p)*(1-Math.exp(-dt*.0072));
+  if(Math.abs(target-p)<.0004)p=target;
+  if(p!==was||dirty){dirty=false;paint();updateDots()}
+  cx+=(mx-cx)*.32;cy+=(my-cy)*.32;
+  ring.style.transform=`translate3d(${cx.toFixed(1)}px,${cy.toFixed(1)}px,0)`;
+}
+
+let mx=0,my=0,cx=0,cy=0,down=false,sx=0,st=0,moved=0,wheelT=0;
+const PULL=()=>Math.max(150,W*.2);
+stage.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')ring.classList.add('show')});
+stage.addEventListener('pointerleave',()=>ring.classList.remove('show'));
+stage.addEventListener('pointermove',e=>{
+  const r=stage.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;
+  if(!down)return;
+  const dx=e.clientX-sx;moved=Math.max(moved,Math.abs(dx));target=st+dx/PULL();
+});
+stage.addEventListener('pointerdown',e=>{
+  if(e.target.closest('a,button'))return;
+  down=true;sx=e.clientX;st=target;moved=0;stage.setPointerCapture(e.pointerId);ring.classList.add('drag');
+});
+function release(e){
+  if(!down)return;down=false;ring.classList.remove('drag');
+  if(moved<6){
+    const hit=document.elementsFromPoint(e.clientX,e.clientY).find(x=>x.classList&&x.classList.contains('m'));
+    if(hit){let d=wrap(+hit.dataset.i-target,N);d=Math.round(d);if(d>0&&d<N)target=Math.round(target)+d}
+  }else target=Math.round(target);
+}
+stage.addEventListener('pointerup',release);stage.addEventListener('pointercancel',release);
+stage.addEventListener('wheel',e=>{
+  e.preventDefault();target+=clamp(e.deltaY+e.deltaX,-120,120)/420;
+  clearTimeout(wheelT);wheelT=setTimeout(()=>{target=Math.round(target)},150);
+},{passive:false});
+addEventListener('keydown',e=>{
+  if(brandDialog.open||e.target.closest('button,a,input'))return;
+  if(['ArrowRight','ArrowDown'].includes(e.key)){e.preventDefault();target=Math.round(target)+1}
+  if(['ArrowLeft','ArrowUp'].includes(e.key)){e.preventDefault();target=Math.round(target)-1}
+});
+
+const outfit=[],brandDialog=$('brand-dialog');
+let dialogMode='profile',toastTimer;
+function showToast(message){$('toast').textContent=message;$('toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('show'),2200)}
+function updateSavedCount(){const count=cards.filter(c=>c.querySelector('.fav').getAttribute('aria-pressed')==='true').length;$('saved-count').textContent=count;$('saved-button').setAttribute('aria-label',`Open saved favourites, ${count} saved`)}
+const dots=LOOKS.map((_,i)=>{const button=document.createElement('button');button.setAttribute('aria-label',`Show look ${String(i+1).padStart(2,'0')}`);button.setAttribute('aria-pressed',i===0);button.addEventListener('click',()=>{const current=Math.round(target);let delta=wrap(i-current,N);if(delta>N/2)delta-=N;target=current+delta});$('look-dots').append(button);return button});
+let currentDot=-1;
+function updateDots(){const current=wrap(Math.round(p),N);if(current===currentDot)return;currentDot=current;dots.forEach((dot,i)=>dot.setAttribute('aria-pressed',i===current))}
+$('previous-look').addEventListener('click',()=>target=Math.round(target)-1);
+$('next-look').addEventListener('click',()=>target=Math.round(target)+1);
+function profileContent(){return `<div class="profile-card"><img src="assets/thedressup-logo.webp" alt="TheDressUp Clothing Shop logo"><h2 id="dialog-title">TheDress<span>Up</span> <span>&#9825;</span></h2><p>Shopping &amp; retail<br>Branded and high quality clothes<br>Office hours 10am&ndash;5pm</p><div class="dialog-stats"><span><b>507</b>posts</span><span><b>22.6K</b>followers</span><span><b>32</b>following</span></div><a class="dialog-link" href="https://www.instagram.com/dressup_clothing_shop/" target="_blank" rel="noopener noreferrer"><img src="assets/thedressup-logo.webp" alt=""><span><small>OUR MAIN SHOP</small>@dressup_clothing_shop</span>&#8599;</a><a class="dialog-link" href="https://www.instagram.com/dressup_clothing_shop.03/" target="_blank" rel="noopener noreferrer"><img src="assets/thedressup-secondary.jpg" alt="Second shop DU logo"><span><small>FOLLOW OUR 2ND ACCOUNT</small>@dressup_clothing_shop.03</span>&#8599;</a></div>`}
+function renderDialog(){
+  const content=$('dialog-content');
+  if(dialogMode==='profile'){content.innerHTML=profileContent();return}
+  const entries=dialogMode==='saved'?cards.flatMap((c,i)=>c.querySelector('.fav').getAttribute('aria-pressed')==='true'?[{id:i,index:i}]:[]):outfit.map((id,index)=>({id,index}));
+  content.innerHTML=`<h2 id="dialog-title">${dialogMode==='saved'?'Your lovely favourites':'Your outfit edit'} (${entries.length})</h2><p class="dialog-note">A little inspiration for your next outfit. Ask our Instagram shop for current availability, sizing and prices.</p>`;
+  const list=document.createElement('div');list.className='edit-list';
+  entries.forEach(({id,index})=>{const [a,b,c,d,name]=ITEMS[id];const item=document.createElement('article');item.className='edit-item';item.innerHTML=`<div class="edit-image"></div><h3>${name}</h3><button class="remove-item" data-remove="${index}">Remove</button>`;item.querySelector('.edit-image').append(crop(PIECES,a,c,b-a,d-c,960,720));list.append(item)});
+  if(entries.length)content.append(list);else{const empty=document.createElement('p');empty.className='edit-empty';empty.textContent=dialogMode==='saved'?'Tap a heart. Find a favourite.':'A little room for your next look.';content.append(empty)}
+  const link=document.createElement('a');link.className='dialog-link';link.href='https://www.instagram.com/dressup_clothing_shop/';link.target='_blank';link.rel='noopener noreferrer';link.innerHTML='<span>Visit our Instagram shop</span>&#8599;';content.append(link);
+}
+function openDialog(mode){dialogMode=mode;renderDialog();brandDialog.showModal()}
+document.querySelectorAll('[data-dialog]').forEach(button=>button.addEventListener('click',()=>openDialog('profile')));
+$('saved-button').addEventListener('click',()=>openDialog('saved'));
+$('bag-button').addEventListener('click',()=>openDialog('bag'));
+brandDialog.addEventListener('click',e=>{if(e.target.closest('.dialog-close')){brandDialog.close();return}const remove=e.target.closest('[data-remove]');if(remove){const index=+remove.dataset.remove;if(dialogMode==='saved'){cards[index].querySelector('.fav').setAttribute('aria-pressed','false');updateSavedCount()}else{outfit.splice(index,1);$('cart').textContent=cart=outfit.length}renderDialog()}else if(e.target===brandDialog){const rect=brandDialog.getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)brandDialog.close()}});
+
+function loop(t){frame(t);requestAnimationFrame(loop)}
+Promise.all([MODELS,PIECES].map(u=>{const i=new Image;i.src=u;return i.decode().catch(()=>{})})).then(()=>document.fonts.ready).then(()=>{
+  size();paint();$('wait').classList.add('gone');
+});
+size();requestAnimationFrame(loop);
+</script>
+</body>
+</html>
